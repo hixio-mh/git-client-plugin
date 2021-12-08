@@ -6,7 +6,7 @@
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
     <version>4.12</version>
-    <relativePath />
+    <relativePath/>
   </parent>
 
   <groupId>org.jenkins-ci.plugins</groupId>
@@ -129,7 +129,7 @@
            automatic NTLM on Windows. See JENKINS-37934 -->
       <groupId>org.eclipse.jgit</groupId>
       <artifactId>org.eclipse.jgit.http.apache</artifactId>
-      <version>${jgit.version}</version>
+      <version>5.13.0.202109080827-r</version>
       <exclusions>
         <exclusion>
           <!-- Provided by apache-httpcomponents-client-4-api -->
